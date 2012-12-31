@@ -33,7 +33,7 @@
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\Downloads\Source\Src\Newtonsoft.Json\bin\Debug\Net40\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\Downloads\Source\Src\Newtonsoft.Json\bin\Debug\Net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

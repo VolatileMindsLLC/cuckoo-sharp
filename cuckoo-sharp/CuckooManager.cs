@@ -151,11 +151,16 @@ namespace cuckoosharp
 				machine.IP = (string)obj["ip"];
 				machine.Label = (string)obj["label"];
 				machine.Locked = (bool)obj["locked"];
-				machine.LockedChangedOn = DateTime.Parse((string)obj["locked_changed_on"]);
+				
+				if (obj["locked_changed_on"].Type != JTokenType.Null)
+					machine.LockedChangedOn = DateTime.Parse(obj["locked_changed_on"].ToObject<string>());
+				
 				machine.Name = (string)obj["name"];
 				machine.Platform = (string)obj["platform"];
 				machine.Status = (string)obj["status"];
-				machine.StatusChangedOn = DateTime.Parse((string)obj["status_changed_on"]);
+				
+				if (obj["status_changed_on"].Type != JTokenType.Null)
+					machine.StatusChangedOn = DateTime.Parse(obj["status_changed_on"].ToObject<string>());
 				
 				machines.Add(machine);
 			}
@@ -173,11 +178,16 @@ namespace cuckoosharp
 			machine.IP = (string)resp["ip"];
 			machine.Label = (string)resp["label"];
 			machine.Locked = (bool)resp["locked"];
-			machine.LockedChangedOn = DateTime.Parse((string)resp["locked_changed_on"]);
+			
+			if (resp["locked_changed_on"].Type != JTokenType.Null)
+				machine.LockedChangedOn = DateTime.Parse((string)resp["locked_changed_on"]);
+			
 			machine.Name = (string)resp["name"];
 			machine.Platform = (string)resp["platform"];
 			machine.Status = (string)resp["status"];
-			machine.StatusChangedOn = DateTime.Parse((string)resp["status_changed_on"]);
+			
+			if(resp["status_changed_on"].Type != JTokenType.Null)
+				machine.StatusChangedOn = DateTime.Parse((string)resp["status_changed_on"]);
 			
 			return machine;
 		}
