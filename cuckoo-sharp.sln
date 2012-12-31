@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cuckoo-sharp", "cuckoo-sharp\cuckoo-sharp.csproj", "{A78A2E10-253B-4361-AE24-032B14A5290C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{676FB196-C3FF-4597-8AC3-F424ACC2FACA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{676FB196-C3FF-4597-8AC3-F424ACC2FACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{676FB196-C3FF-4597-8AC3-F424ACC2FACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{676FB196-C3FF-4597-8AC3-F424ACC2FACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{676FB196-C3FF-4597-8AC3-F424ACC2FACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A78A2E10-253B-4361-AE24-032B14A5290C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A78A2E10-253B-4361-AE24-032B14A5290C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A78A2E10-253B-4361-AE24-032B14A5290C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A78A2E10-253B-4361-AE24-032B14A5290C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Example\Example.csproj
+	EndGlobalSection
+EndGlobal

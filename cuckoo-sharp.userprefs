@@ -1,0 +1,24 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="cuckoo-sharp/CuckooSession.cs">
+    <Files>
+      <File FileName="cuckoo-sharp/CuckooSession.cs" Line="39" Column="47" />
+      <File FileName="cuckoo-sharp/CuckooManager.cs" Line="90" Column="1" />
+      <File FileName="cuckoo-sharp/Task.cs" Line="5" Column="22" />
+      <File FileName="cuckoo-sharp/Machine.cs" Line="6" Column="3" />
+      <File FileName="cuckoo-sharp/FileTask.cs" Line="7" Column="3" />
+      <File FileName="cuckoo-sharp/URLTask.cs" Line="8" Column="13" />
+      <File FileName="cuckoo-sharp/TaskFactory.cs" Line="17" Column="1" />
+      <File FileName="cuckoo-sharp/Sample.cs" Line="27" Column="34" />
+      <File FileName="Example/Main.cs" Line="33" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/home/bperry/cuckoo-sharp/cuckoo-sharp/CuckooManager.cs" line="90" />
+      <Breakpoint file="/home/bperry/cuckoo-sharp/Example/Main.cs" line="25" />
+      <Breakpoint file="/home/bperry/cuckoo-sharp/cuckoo-sharp/CuckooSession.cs" line="41" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
